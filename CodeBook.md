@@ -1,12 +1,14 @@
-This is a code book that describes the variables, data and transformations work:
+This is a code book that describes the data and transformations work:
 
 DATA
+
 Dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 The datasets contains 6 activities: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 The dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. The training datasets is stored in the TRAIN folder. It consists of the subject_train.txt, X_train.txt and y_train.txt files.  The test datasets is stored in the TEST folder. It consists of the subject_test.txt, X_test.txt and y_test.txt files.
 
 
 TRANSFORMATIONS
+
 Read all test files (3 files)
 Read all training files (3 files)
 
