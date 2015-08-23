@@ -78,5 +78,5 @@ TidyData <- aggregate(. ~Subject + Activity, CleanedData, mean)
 #Order tidayData according to subject and activity
 TidyData <- TidyData[order(TidyData$Subject,TidyData$Activity),]
 
-#Write tidyData into a text file (180 records and 88 variables)
+#Write tidyData into a text file
 write.table(TidyData, file = "D:/Data_Norlida/Data Science/Module3/Data/UCI HAR Dataset/Tidy.txt", row.names = FALSE)
