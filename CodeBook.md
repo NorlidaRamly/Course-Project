@@ -26,7 +26,7 @@ PART 4:  Appropriately labels the data set with descriptive variable names (exam
 
 Part 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Create tidyData as a set with average for each activity and subject.
-Order tidayData according to subject and activity.
+Order tidyData according to subject and activity.
 Write tidyData into a text file.
 
 
