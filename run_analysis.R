@@ -75,7 +75,7 @@ CleanedData <- data.table(CleanedData)
 #Create tidyData as a set with average for each activity and subject
 TidyData <- aggregate(. ~Subject + Activity, CleanedData, mean)
 
-#Order tidayData according to subject and activity
+#Order tidyData according to subject and activity
 TidyData <- TidyData[order(TidyData$Subject,TidyData$Activity),]
 
 #Write tidyData into a text file
